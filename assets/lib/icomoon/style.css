@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?xwa07v');
+  src:  url('fonts/icomoon.eot?xwa07v#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xwa07v') format('truetype'),
+    url('fonts/icomoon.woff?xwa07v') format('woff'),
+    url('fonts/icomoon.svg?xwa07v#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+/*
+	font-family: 'icomoon' !important;
+	speak: none!important;
+	font-style: normal!important;
+	font-weight: normal!important;
+	font-variant: normal!important;
+	text-transform: none!important;
+	line-height: 1!important;
+	/* inisialize */
+/*
+	background-color: transparent!important;
+	-webkit-border-radius: 0!important;
+	   -moz-border-radius: 0!important;
+		 -o-border-radius: 0!important;
+			border-radius: 0!important;
+	color: unset;
+	/* Enable Ligatures ================ */
+/*
+	letter-spacing: 0;
+	-webkit-font-feature-settings: "liga";
+	-moz-font-feature-settings: "liga=1";
+	-moz-font-feature-settings: "liga";
+	-ms-font-feature-settings: "liga" 1;
+	font-feature-settings: "liga";
+	-webkit-font-variant-ligatures: discretionary-ligatures;
+	font-variant-ligatures: discretionary-ligatures;
+
+	/* Better Font Rendering =========== */
+/*
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+*/
+.ytb-id-checker-btn:before {
+	font-family: 'icomoon' !important;
+}
+
+
+.icon-pencil:before {
+  content: "\e905";
+}
+.icon-box-add:before {
+  content: "\e95e";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-bubbles4:before {
+  content: "\e970";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-play3:before {
+  content: "\ea1c";
+}
+.icon-previous2:before {
+  content: "\ea23";
+}
+.icon-next2:before {
+  content: "\ea24";
+}
+.icon-volume-high:before {
+  content: "\ea26";
+}
+.icon-volume-mute2:before {
+  content: "\ea2a";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-wordpress:before {
+  content: "\eab4";
+}
+.icon-loop2:before {
+  content: "\ea2e";
+}
+.icon-spinner11:before {
+  content: "\e984";
+}

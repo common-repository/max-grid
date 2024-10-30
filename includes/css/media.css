@@ -1,0 +1,72 @@
+/* WP 3.6 Native Audio Player styling*/
+
+/* change the color of the background */
+.mejs-controls,
+.mejs-mediaelement,
+.mejs-container {
+	background: url('') !important;
+	background-color: #C8E1FA !important;
+}
+
+/* change the color of the lettering */
+.mejs-currenttime,
+.mejs-duration {
+	color: black !important;
+}
+
+/* eliminate the yellow border around the play button during playback */
+.mejs-controls .mejs-button button:focus {
+	outline: none !important;
+}
+
+.mejs-offscreen {
+	background-color: #C8E1FA !important;
+}
+.mejs-container {}
+.svg {}
+.wp-audio-shortcode {}
+.mejs-audio {}
+.mejs-inner {}
+.mejs-mediaelement {}
+.mejs-layers {}
+.mejs-poster {}
+.mejs-layer {}
+.mejs-controls {}
+.mejs-button {}
+.mejs-playpause-button {}
+.mejs-play {}
+.mejs-time {}
+.mejs-currenttime-container {}
+.mejs-currenttime {}
+.mejs-time-rail {}
+.mejs-time-total {}
+.mejs-time-slider {}
+.mejs-time-buffering {}
+.mejs-time-loaded {}
+.mejs-time-current {}
+.mejs-time-handle {}
+.mejs-time-float {}
+.mejs-time-float-current {}
+.mejs-time-float-corner {}
+.mejs-duration-container {}
+.mejs-duration {}
+.mejs-volume-button {}
+.mejs-mute {}
+.mejs-horizontal-volume-slider {}
+.mejs-horizontal-volume-total {}
+.mejs-horizontal-volume-current {}
+.mejs-horizontal-volume-handle {}
+.mejs-clear {}
+.wp-video {}
+.wp-video-shortcode {}
+.mejs-video {}
+.mejs-overlay {}
+.mejs-overlay-loading {}
+.mejs-overlay-error {}
+.mejs-overlay-play {}
+.mejs-overlay-button {}
+.mejs-volume-slider {}
+.mejs-volume-total {}
+.mejs-volume-current {}
+.mejs-volume-handle {}
+.mejs-fullscreen-button {}

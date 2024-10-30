@@ -1,0 +1,316 @@
+/**
+ * GP Buttons Styles.
+ */
+body span.maxgrid-button, body .maxgrid-button, body a.maxgrid-button {
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	color: #fff;
+	background-color: #00aeee;
+	border-radius: 2px;
+	padding: 0 25px 0 45px;
+	border: 1px solid transparent;
+	min-width: 100px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	word-wrap: break-word;
+	cursor: pointer;
+	box-sizing: border-box;
+	text-decoration: none!important;
+}
+body span.maxgrid-button:before, body .maxgrid-button:before, body a.maxgrid-button:before {
+	font-family: dashicons, FontAwesome;
+}
+.maxgrid-button.small {
+    height: 26px;
+	line-height: 24px;
+	font-size: 12px;
+	padding: 0 12px 0 30px;
+}
+.maxgrid-button.small:before {
+	font-size: 13px;
+	left: 7px;
+}
+.maxgrid-button.medium {
+    height: 30px;
+	line-height: 28px;
+	font-size: 14px;
+	padding: 0 20px 0 35px;
+}
+.maxgrid-button.medium:before {
+	font-size: 15px;
+	left: 10px;
+}
+.maxgrid-button.large {
+    height: 33px;
+	line-height: 31px;
+	font-size: 15px;
+	padding: 0 20px 0 42px;
+}
+.maxgrid-button.large:before {
+	font-size: 17px;
+	left: 12px;
+}
+.maxgrid-button.biggest {
+    height: 40px;
+	line-height: 38px;
+	font-size: 17px;
+	padding: 0 25px 0 45px;
+}
+
+.maxgrid-button.biggest:before {
+	font-size: 18px;
+}
+.maxgrid-button:hover {
+	background-color: #119af0;
+}
+.maxgrid-button.right {
+    float: right;
+}
+.maxgrid-button.left {
+    float: left;
+}
+.maxgrid-button:before {
+    font-size: 1.5em;
+	padding: 0 .2em;
+	pointer-events: none;
+	position: absolute;
+	height: 30px;
+	line-height: 30px;
+	left: 10px;
+	top: 50%;
+	-webkit-transform: rotate(0.001deg) translateY(-50%);
+      -ms-transform: rotate(0.001deg) translateY(-50%);
+          transform: rotate(0.001deg) translateY(-50%);
+}
+.maxgrid-button.icon-left {
+	padding-left: 40px!important;
+}
+.maxgrid-button.icon-right {
+	padding-right: 40px!important;
+}
+.maxgrid-button.icon-left:before {
+	left: 10px;
+	right: unset;
+}
+.maxgrid-button.icon-right:before {
+	left: unset;
+	right: 10px;
+}
+.maxgrid-button.add:before {
+    content: "\271A";
+}
+.maxgrid-button.save:before {
+    content: "\f0c7";
+}
+.maxgrid-button.edit:before {
+    content: "\f464";
+}
+.maxgrid-button.preview-icon:before {
+    content: "\f06e";
+}
+.maxgrid-button.generate:before {
+    content: "\f085";
+}
+.maxgrid-button.preset:before {
+    content: "\f1de";
+	top: -2px;
+}
+.maxgrid-button.remove:before {
+    content: "\f182";
+}
+.maxgrid-button.upload:before {
+    content: "\f102";
+}
+.maxgrid-button.refresh:before {
+    content: "\f021";
+}
+.maxgrid-button.download:before {
+    content: "\f019";
+}
+.maxgrid-button.download-alt:before {
+    content: "\f381";
+}
+.maxgrid-button.load:before {
+    content: "\f07c";
+}
+.maxgrid-button.clone:before {
+    content: "\f24d";
+}
+
+/*	
+	Use Unicode Icon
+	Example: <button class="maxgrid-button unicode-icon" data-unicode="">Send</button>
+	FontAwesome Icon Unicode Converter : https://glyphsearch.com/?copy=unicode
+*/
+.maxgrid-button.unicode-icon:before {
+	content: attr(data-unicode);
+}
+.maxgrid-button.primary {
+	background-color: #119af0;
+}
+.maxgrid-button.primary:hover {
+	background-color: #0b92e7;
+}
+.maxgrid-button.secondary {
+	background-color: #f96732;
+}
+
+.maxgrid-button.secondary:hover {
+	background-color: #f6612a;
+}
+.maxgrid-button.light {
+	color: #444;
+	border: 1px solid #d5d5d5;
+	background: linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
+}
+.maxgrid-button.light:hover {
+	background-color: #fff;
+	color: #333;
+	border: 1px solid #a5a5a5;
+}
+.maxgrid-button.grey {
+	background-color: #afafaf;
+}
+.maxgrid-button.grey:hover {
+	background-color: #a8a8a8;
+}
+.maxgrid-button.bordered {
+	background-color: #e5e5e5;
+	border: 1px solid #ccc;
+	color: #444;
+}
+.maxgrid-button.bordered:hover {
+	background-color: #fff;
+}
+.maxgrid-button.blue {
+	background-color: #119af0;
+}
+.maxgrid-button.blue:hover {
+	background-color: #0b92e7;
+}
+.maxgrid-button.green {
+	background-color: #059835;
+}
+.maxgrid-button.green:hover {
+	background-color: #099e3d;
+}
+.maxgrid-button.orange {
+	background-color: #feb710;
+}
+.maxgrid-button.orange:hover {
+	background-color: #feb201;
+}
+.maxgrid-button.coral-red {
+	background-color: #FE6A6A;
+}
+.maxgrid-button.coral-red:hover {
+	background-color: #ff5d5d;
+}
+.maxgrid-button.pink {
+	background-color: #FF69B4;
+}
+.maxgrid-button.pink:hover {
+	background-color: #ff56ab;
+}
+.maxgrid-button.prime {
+	background-color: #afafaf;
+}
+.maxgrid-button.prime:hover {
+	background-color: #119af0;
+}
+.maxgrid-button.dark {
+	background-color: #32373c;
+}
+.maxgrid-button.dark:hover {
+	background-color: #23282d;
+}
+
+/*	
+	is disabled
+*/
+.maxgrid-button.is-disabled {
+	background-color: #afafaf;
+	opacity: .7;
+}
+.maxgrid-button.is-disabled:hover {
+	background-color: #afafaf;
+	cursor: not-allowed;
+}
+
+/*	
+	input file style
+*/
+.label-file {
+	display: block;
+    cursor: pointer;
+	margin: 0 -25px;
+}
+.input-file {
+    display: none;
+}
+
+@media only screen and (min-width: 960px) {
+	.maxgrid-button.no-icon:before {
+		display: none;
+	}
+	.maxgrid-button.no-icon {
+		padding-left: 25px;
+	}
+	.maxgrid-button.small.no-icon {
+		padding-left: 12px;
+	}
+	.maxgrid-button.medium.no-icon {
+		padding-left: 20px;
+	}
+	.maxgrid-button.large.no-icon {
+		padding-left: 20px;
+	}
+	.maxgrid-button.biggest.no-icon {
+		padding-left: 25px;
+	}
+}
+@media only screen and (max-width: 960px) {
+	.maxgrid-button:not(.responsive-off).no-icon:before {
+		display: inline-block;
+	}
+	.maxgrid-button.responsive-off.no-icon:before {
+		display: none;
+	}
+	.maxgrid-button.no-icon {
+		padding-left: 25px;
+	}
+	.maxgrid-button.small.no-icon {
+		padding-left: 12px;
+	}
+	.maxgrid-button.medium.no-icon {
+		padding-left: 20px;
+	}
+	.maxgrid-button.large.no-icon {
+		padding-left: 20px;
+	}
+	.maxgrid-button.biggest.no-icon {
+		padding-left: 25px;
+	}	
+	.maxgrid-button.responsive-off.no-icon {
+		padding: 0 20px;
+	}
+	.maxgrid-button.no-icon:not(.responsive-off).responsive span {
+		display: none;
+	}
+	.maxgrid-button:not(.responsive-off):not(.download):not(.l-ex-import) {
+		min-width: unset;
+		padding: 0 10px !important;
+	}
+	.maxgrid-button:not(.responsive-off):not(.download):before {
+		padding: unset;
+		position: relative;
+		left: unset;
+		top: unset;
+		-webkit-transform: rotate(0.001deg) translateY(0);
+		-ms-transform: rotate(0.001deg) translateY(0);
+		transform: rotate(0.001deg) translateY(0); 
+	}
+}

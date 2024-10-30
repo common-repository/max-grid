@@ -1,0 +1,889 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP eMaker Grid\n"
+"Report-Msgid-Bugs-To: https://www.wpemaker.com/support/\n"
+"POT-Creation-Date: 2019-03-04 11:37+0100\n"
+"PO-Revision-Date: 2019-03-04 11:37+0100\n"
+"Last-Translator: Mustapha FRSAOUI\n"
+"Language-Team: Mustapha FRSAOUI\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-emaker-grid.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: assets/admin/class-admin-assets.php:96
+#: assets/admin/class-settings-page.php:235
+msgid "Something that you can quickly identify the layout preset with."
+msgstr ""
+"Quelque chose que vous pouvez identifier rapidement pour ce modele "
+"prédéfinie."
+
+#: assets/admin/class-admin-assets.php:97
+msgid "Specify Name."
+msgstr ""
+
+#: assets/admin/class-admin-assets.php:98
+msgid ""
+"A template name can't contain any of the following characters: \\/:*'?\"<>|"
+msgstr ""
+
+#: assets/admin/class-admin-assets.php:99
+msgid "Template duplicated successfully."
+msgstr ""
+
+#: assets/admin/class-admin-assets.php:100
+msgid "Template name is required."
+msgstr ""
+
+#: assets/admin/class-admin-assets.php:101
+msgid "Press OK to delete element, Cancel to leave"
+msgstr ""
+
+#: assets/admin/class-admin-assets.php:102
+msgid "Are you sure you want to export all layouts?"
+msgstr ""
+
+#: assets/admin/class-admin-assets.php:103
+#, php-format
+msgid "Are you sure you want to delete \"%s\" layout?"
+msgstr ""
+
+#: assets/admin/class-admin-assets.php:104
+msgid "Templates successfully imported."
+msgstr ""
+
+#: assets/admin/class-admin-assets.php:105
+msgid "Templates already imported!"
+msgstr ""
+
+#: assets/admin/class-admin-meta-boxes.php:36
+msgid "Download File"
+msgstr "URL du fichier téléchargeable"
+
+#: assets/admin/class-admin-meta-boxes.php:37
+msgid "GRID Settings"
+msgstr ""
+
+#: assets/admin/class-admin-taxonomies.php:345
+msgid "ID"
+msgstr "ID"
+
+#: assets/admin/class-admin-taxonomies.php:352
+msgid "Image"
+msgstr "Image"
+
+#: assets/admin/class-admin-taxonomies.php:353
+msgid "File"
+msgstr "Fichier"
+
+#: assets/admin/class-admin-taxonomies.php:354
+msgid "Downloads"
+msgstr "Téléchargements"
+
+#: assets/admin/class-admin-taxonomies.php:355 includes/class-post-types.php:72
+#: includes/class-single-post.php:113 tinymce/vc/vc-grid.php:234
+#: tinymce/vc/vc-grid.php:245 tinymce/vc/vc-grid.php:256
+msgid "Categories"
+msgstr "Catégories"
+
+#: assets/admin/class-admin-taxonomies.php:356 includes/class-post-types.php:97
+msgid "Tags"
+msgstr "Étiquettes"
+
+#: assets/admin/class-admin-taxonomies.php:357
+msgid "Date"
+msgstr "Date de mise en ligne"
+
+#: assets/admin/class-admin-taxonomies.php:358
+#: assets/admin/class-admin-taxonomies.php:419
+#: includes/post-like/post-like.php:47 includes/post-like/post-like.php:72
+msgid "Likes"
+msgstr "j'aime"
+
+#: assets/admin/class-admin-taxonomies.php:418
+msgid "Views"
+msgstr "Vues"
+
+#: assets/admin/class-emaker-grid.php:180
+msgid "Documentation"
+msgstr ""
+
+#: assets/admin/class-emaker-grid.php:181
+msgid "Support"
+msgstr ""
+
+#: assets/admin/class-emaker-grid.php:218
+#, php-format
+msgid "%sERROR LOADING!%s"
+msgstr ""
+
+#: assets/admin/class-emaker-grid.php:219
+#, php-format
+msgid "%sNOTE: %s"
+msgstr ""
+
+#: assets/admin/class-frontend-scripts.php:70
+#: includes/classes/description-reviews-tabs.php:358
+#: includes/classes/youtube.class.php:1277
+#, php-format
+msgid "View all %s replies"
+msgstr "Afficher les %s réponses"
+
+#: assets/admin/class-frontend-scripts.php:71
+#: includes/classes/description-reviews-tabs.php:356
+#: includes/classes/youtube.class.php:1275
+msgid "View reply"
+msgstr "Afficher la réponse"
+
+#: assets/admin/class-frontend-scripts.php:72
+msgid "Hide replies"
+msgstr "Masquer les réponses"
+
+#: assets/admin/class-frontend-scripts.php:73
+msgid "Conflict detected."
+msgstr ""
+
+#: assets/admin/class-frontend-scripts.php:74
+#: includes/classes/description-reviews-tabs.php:375
+#: includes/classes/transient.class.php:245
+#: includes/classes/youtube.class.php:327
+#: includes/classes/youtube.class.php:1049
+#: includes/classes/youtube.class.php:1293 tinymce/mce-emaker-grid.php:508
+msgid "Load More"
+msgstr "Voir plus"
+
+#: assets/admin/class-frontend-scripts.php:75
+#: includes/class-ajax-request.php:638 includes/class-layout.php:918
+#: includes/classes/sharthis.php:182 includes/classes/sharthis.php:197
+#: includes/classes/youtube.class.php:421
+msgid "share"
+msgstr "partager"
+
+#: assets/admin/class-frontend-scripts.php:76
+msgid "Thanks for your comment. We appreciate your response."
+msgstr "Merci pour votre commentaire. Nous apprécions votre réponse."
+
+#: assets/admin/class-frontend-scripts.php:77
+msgid "An error occurred while processing your form."
+msgstr ""
+
+#: assets/admin/class-frontend-scripts.php:79
+msgid "Please check if you've completed the captcha security check."
+msgstr ""
+
+#: assets/admin/class-frontend-scripts.php:80
+msgid "Please enter your name."
+msgstr ""
+
+#: assets/admin/class-frontend-scripts.php:81
+msgid "Please enter your email."
+msgstr ""
+
+#: assets/admin/class-frontend-scripts.php:82
+msgid "Please enter a valid e-mail address."
+msgstr ""
+
+#: assets/admin/class-frontend-scripts.php:83
+msgid "Please choose a rating."
+msgstr ""
+
+#: assets/admin/class-frontend-scripts.php:84
+msgid "Please provide a detailed description or comment."
+msgstr "Veuillez fournir une description détaillée ou un commentaire."
+
+#: assets/admin/class-frontend-scripts.php:85
+msgid "There are no more results to show."
+msgstr "Il n’y a pas d’autres résultats à afficher."
+
+#: assets/admin/class-frontend-scripts.php:89
+msgid "You must be logged in to download this content."
+msgstr ""
+
+#: assets/admin/class-frontend-scripts.php:92 includes/classes/sharthis.php:206
+msgid "copy"
+msgstr "copier"
+
+#: assets/admin/class-frontend-scripts.php:93
+msgid "copied"
+msgstr "copié"
+
+#: assets/admin/class-settings-page.php:232
+msgid "Templates Library"
+msgstr ""
+
+#: assets/admin/class-settings-page.php:233
+msgid "Current template path"
+msgstr ""
+
+#: assets/admin/class-settings-page.php:235
+msgid "Duplicate template"
+msgstr ""
+
+#: assets/admin/class-settings-page.php:617 builder/class-dflt-params.php:93
+#: includes/core-functions.php:149
+msgid "Join the discussion"
+msgstr ""
+
+#: assets/admin/class-settings-page.php:821 builder/class-dflt-params.php:98
+#: includes/classes/reviews-rating.php:88
+msgid "Your rating"
+msgstr "Votre note"
+
+#: assets/common/g-recaptcha/g-recaptcha.php:107
+#: assets/common/g-recaptcha/g-recaptcha.php:112
+msgid ""
+"You have entered an incorrect reCAPTCHA value. Click the BACK button on your "
+"browser, and try again."
+msgstr ""
+
+#: assets/common/g-recaptcha/g-recaptcha.php:112
+msgid "Error"
+msgstr ""
+
+#: builder/class-builder-ajax-request.php:1170
+#, php-format
+msgid ""
+"There is a new version of %s available. %s View version %s details%s or %s "
+"update now%s."
+msgstr ""
+
+#: builder/class-builder-ajax-request.php:2353 includes/class-layout.php:380
+#: includes/classes/global.php:31
+msgid "F j, Y"
+msgstr "j F, Y"
+
+#: builder/class-builder-ajax-request.php:2354
+msgid "M j, Y"
+msgstr "j M, Y"
+
+#: builder/class-builder-ajax-request.php:2355
+msgid "D M j"
+msgstr "D j M"
+
+#: builder/class-builder.php:205
+msgid "Add New Element"
+msgstr ""
+
+#: builder/class-builder.php:205
+msgid "Add Element"
+msgstr ""
+
+#: builder/class-builder.php:207
+msgid "Blocks Settings"
+msgstr ""
+
+#: builder/class-builder.php:209
+msgid "Lightbox Settings"
+msgstr ""
+
+#: builder/class-builder.php:211
+msgid "About"
+msgstr ""
+
+#: builder/class-builder.php:213
+msgid "Reset to default"
+msgstr ""
+
+#: builder/class-builder.php:213
+msgid "Are you sure you want to restore all elements?"
+msgstr ""
+
+#: builder/class-builder.php:360 builder/class-dflt-params.php:574
+#: includes/class-layout.php:123
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: builder/class-dflt-params.php:487 includes/class-ajax-request.php:570
+#: includes/class-layout.php:821
+msgid "Add To Cart"
+msgstr "Ajouter au Panier"
+
+#: builder/class-dflt-params.php:511 includes/class-single-post.php:110
+#: includes/classes/get-post-meta.php:35
+msgid "Download"
+msgid_plural "Downloads"
+msgstr[0] "Télécharger"
+msgstr[1] "Téléchargements"
+
+#: builder/class-dflt-params.php:532 includes/class-comments-tabs.php:40
+#: includes/classes/reviews-rating.php:132
+msgid "reviews"
+msgstr "avis"
+
+#: includes/class-ajax-request.php:259 includes/classes/youtube.class.php:281
+msgid "Previous"
+msgstr "Précédent"
+
+#: includes/class-ajax-request.php:282 includes/classes/youtube.class.php:308
+msgid "Next"
+msgstr "Suivant"
+
+#: includes/class-ajax-request.php:507 includes/class-layout.php:199
+#: includes/class-single-post.php:65
+msgid "Uncategorized"
+msgstr "Non classé"
+
+#: includes/class-ajax-request.php:645 includes/class-layout.php:400
+#: includes/classes/elements.php:406
+#, php-format
+msgid "%s Sale"
+msgid_plural "%s Sales"
+msgstr[0] "%s Vente"
+msgstr[1] "%s Ventes"
+
+#: includes/class-comments-tabs.php:37 includes/class-layout.php:320
+#: includes/classes/description-reviews-tabs.php:525
+msgid "Comments"
+msgstr "Commentaires"
+
+#: includes/class-comments-tabs.php:56 includes/class-post-types.php:137
+#: includes/classes/youtube.class.php:1357
+msgid "Description"
+msgstr ""
+
+#: includes/class-install.php:85
+#, php-format
+msgid ""
+"The plugin could not be activated. The plugin is missing the %stemplates.txt"
+"%s file."
+msgstr ""
+
+#: includes/class-layout.php:198
+msgid "In"
+msgstr "Dans"
+
+#: includes/class-layout.php:322
+#: includes/classes/description-reviews-tabs.php:527
+msgid "One Comment"
+msgstr "Un commentaire"
+
+#: includes/class-layout.php:324
+msgid "No Comment"
+msgstr "Aucun commentaire"
+
+#: includes/class-layout.php:377 includes/class-layout.php:610
+msgid "By"
+msgstr "Par"
+
+#: includes/class-layout.php:868 includes/classes/global.php:76
+#, php-format
+msgid "Published on %s"
+msgstr "Ajoutée le  %s"
+
+#: includes/class-post-types.php:62
+msgctxt "taxonomy general name"
+msgid "Download Categories"
+msgstr ""
+
+#: includes/class-post-types.php:63
+msgctxt "taxonomy singular name"
+msgid "Download Category"
+msgstr ""
+
+#: includes/class-post-types.php:64
+msgid "Search Categories"
+msgstr ""
+
+#: includes/class-post-types.php:65
+msgid "All Categories"
+msgstr ""
+
+#: includes/class-post-types.php:66
+msgid "Parent Categories"
+msgstr ""
+
+#: includes/class-post-types.php:67
+msgid "Parent Categories:"
+msgstr ""
+
+#: includes/class-post-types.php:68
+msgid "Edit Category"
+msgstr ""
+
+#: includes/class-post-types.php:69
+msgid "Update Category"
+msgstr ""
+
+#: includes/class-post-types.php:70
+msgid "Add New Category"
+msgstr ""
+
+#: includes/class-post-types.php:71
+msgid "New Category"
+msgstr ""
+
+#: includes/class-post-types.php:87
+msgctxt "taxonomy general name"
+msgid "Download Tags"
+msgstr ""
+
+#: includes/class-post-types.php:88
+msgctxt "taxonomy singular name"
+msgid "Download Tag"
+msgstr ""
+
+#: includes/class-post-types.php:89
+msgid "Search Tags"
+msgstr ""
+
+#: includes/class-post-types.php:90
+msgid "All Tags"
+msgstr ""
+
+#: includes/class-post-types.php:91
+msgid "Parent Tags"
+msgstr ""
+
+#: includes/class-post-types.php:92
+msgid "Parent Tags:"
+msgstr ""
+
+#: includes/class-post-types.php:93
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/class-post-types.php:94
+msgid "Update Tag"
+msgstr ""
+
+#: includes/class-post-types.php:95
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/class-post-types.php:96
+msgid "New Tag"
+msgstr ""
+
+#: includes/class-single-post.php:118
+msgid "Home"
+msgstr ""
+
+#: includes/class-single-post.php:232
+msgid "File not found!"
+msgstr ""
+
+#: includes/classes/description-reviews-tabs.php:89
+msgid "To"
+msgstr ""
+
+#: includes/classes/description-reviews-tabs.php:89
+msgid "Reply"
+msgstr ""
+
+#: includes/classes/description-reviews-tabs.php:101
+msgid "Leave a Reply"
+msgstr ""
+
+#: includes/classes/description-reviews-tabs.php:105
+msgid "Leave a Review"
+msgstr "Laisser un avis"
+
+#: includes/classes/description-reviews-tabs.php:127
+msgid "Post Comment"
+msgstr "Soumettre un commentaire"
+
+#: includes/classes/description-reviews-tabs.php:154
+msgid "Edit"
+msgstr ""
+
+#: includes/classes/description-reviews-tabs.php:339
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: includes/classes/description-reviews-tabs.php:368
+msgid "There are no comments yet. Be the first to comment."
+msgstr "Il n'y a pas encore de commentaires. Soyez le premier à commenter."
+
+#: includes/classes/description-reviews-tabs.php:457
+#: includes/classes/youtube.class.php:1406 includes/template-functions.php:195
+msgid "search"
+msgstr "rechercher"
+
+#: includes/classes/description-reviews-tabs.php:539
+msgid "Product reviews"
+msgstr "Avis sur le produit"
+
+#: includes/classes/global.php:32
+msgid "h:ia"
+msgstr ""
+
+#: includes/classes/reviews-rating.php:182
+#: includes/classes/reviews-rating.php:184
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: includes/classes/transient.class.php:274
+msgid "Sale!"
+msgstr ""
+
+#: includes/classes/youtube.class.php:117
+msgid "Like this on youtube"
+msgstr "J'aime ce contenu"
+
+#: includes/classes/youtube.class.php:118
+msgid "Dislike this on youtube"
+msgstr "Je n'aime pas ce contenu"
+
+#: includes/classes/youtube.class.php:384
+#: includes/classes/youtube.class.php:697
+msgid "views"
+msgstr "vues"
+
+#: includes/classes/youtube.class.php:972
+#, php-format
+msgid "%s subscribers"
+msgstr "%s abonnés"
+
+#: includes/classes/youtube.class.php:1361
+#, php-format
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s Commentaire"
+msgstr[1] "%s Commentaires"
+
+#: includes/formatting-functions.php:62
+#, php-format
+msgid "%s ago"
+msgstr "il y a %s"
+
+#: includes/post-like/post-like.php:46 includes/post-like/post-like.php:71
+msgid "Like"
+msgstr "j'aime"
+
+#: includes/post-like/post-like.php:51
+msgid "You must be logged in to do that."
+msgstr ""
+
+#: includes/post-like/post-like.php:90
+msgid "Love This"
+msgstr "J'aime"
+
+#: includes/post-like/post-like.php:94
+msgid "You already love this!"
+msgstr ""
+
+#: tinymce/mce-emaker-grid.php:175
+msgid "You don't appear to have WooCommerce activated!"
+msgstr "Vous ne semblez pas avoir activé WooCommerce!"
+
+#: tinymce/mce-emaker-grid.php:271
+#, php-format
+msgid ""
+"Please verify your %sAPI key%s is correctly entered on the settings page."
+msgstr ""
+
+#: tinymce/mce-emaker-grid.php:273
+#, php-format
+msgid ""
+"This Channel Does Not Exist!<br> Please check your channel's user ID or "
+"channel ID - <a href=\"%s\" target=\"_blank\" title=\"Find your YouTube user "
+"& channel IDs\">YouTube Help</a>"
+msgstr ""
+
+#: tinymce/mce-emaker-grid.php:275
+#, php-format
+msgid ""
+"It is recommended to use your own <a href=\"%s\" target=\"_blank\"> Youtube "
+"API key</a>"
+msgstr ""
+
+#: tinymce/mce-emaker-grid.php:293
+msgid "Loading"
+msgstr "Chargement"
+
+#: tinymce/mce-emaker-grid.php:336 tinymce/mce-emaker-grid.php:373
+msgid "Newest items"
+msgstr "Nouveauté"
+
+#: tinymce/mce-emaker-grid.php:340
+msgid "Price"
+msgstr "Prix"
+
+#: tinymce/mce-emaker-grid.php:344
+msgid "Best Sellers"
+msgstr "Meilleures ventes"
+
+#: tinymce/mce-emaker-grid.php:348
+msgid "Best rated"
+msgstr "Meilleurs notes"
+
+#: tinymce/mce-emaker-grid.php:352
+msgid "Promotional Products"
+msgstr "Meilleures réductions"
+
+#: tinymce/mce-emaker-grid.php:357
+msgid "Relevance"
+msgstr "Pertinence"
+
+#: tinymce/mce-emaker-grid.php:358
+msgid "Upload date"
+msgstr "Date de mise en ligne"
+
+#: tinymce/mce-emaker-grid.php:359
+msgid "View count"
+msgstr "Nombre de vues"
+
+#: tinymce/mce-emaker-grid.php:360
+msgid "Rating"
+msgstr "Avis"
+
+#: tinymce/mce-emaker-grid.php:377
+msgid "Most Popular"
+msgstr "Les plus populaires"
+
+#: tinymce/mce-emaker-grid.php:381
+msgid "Most liked"
+msgstr "Les plus populaire"
+
+#: tinymce/mce-emaker-grid.php:387
+msgid "Most downloaded"
+msgstr "Les plus téléchargées"
+
+#: tinymce/mce-emaker-grid.php:422
+msgid "Choose a Category"
+msgstr "Choisissez des catégories"
+
+#: tinymce/mce-emaker-grid.php:442
+msgid "Choose a Tags"
+msgstr "Choisissez des mots clés"
+
+#: tinymce/mce-emaker-grid.php:462
+msgid "Show All"
+msgstr "Afficher Tout"
+
+#. Plugin Name of the plugin/theme
+#: tinymce/vc/vc-grid.php:149
+msgid "WP eMaker Grid"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:151
+msgid "WordPress eMaker Grid Builder"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:152
+msgid "eMaker"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:159 tinymce/vc/vc-grid.php:266
+msgid "Source Type"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:165
+msgid "Select the source type you wish to display."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:170 tinymce/vc/vc-grid.php:182
+#: tinymce/vc/vc-grid.php:194 tinymce/vc/vc-grid.php:206
+msgid "Template"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:176 tinymce/vc/vc-grid.php:188
+#: tinymce/vc/vc-grid.php:200 tinymce/vc/vc-grid.php:212
+msgid "Select template that you want to use"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:218
+msgid "Include or Exclude Categories"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:227
+msgid "Choose whether Include or Exclude categories."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:238 tinymce/vc/vc-grid.php:249
+#: tinymce/vc/vc-grid.php:260
+msgid ""
+"Please select the categories you would like to exclude from your grid. You "
+"can select multiple categories too (ctrl + click on PC and command + click "
+"on Mac)."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:275
+msgid ""
+"Restrict a search query to only retrieve a particular type of resource "
+"(Channel or Playlist)."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:283
+msgid "Channel/Playlist ID"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:285
+msgid "Enter your Channel or Playlist IDs."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:293
+msgid "ID Cheker"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:295
+msgid ""
+"Please, enter your Channel/Playlist ID before pressing the ID Checker button."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:303
+msgid "Default Filter"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:314
+msgid ""
+"Choose whether Relevance, Upload date, Views count or Rating be set as the "
+"default."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:321
+msgid "Retrieve HD Videos"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:323
+msgid ""
+"Turning this on will restrict a search to only include high definition (HD) "
+"videos."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:324 tinymce/vc/vc-grid.php:336
+#: tinymce/vc/vc-grid.php:384 tinymce/vc/vc-grid.php:396
+#: tinymce/vc/vc-grid.php:406 tinymce/vc/vc-grid.php:416
+msgid "Yes, please"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:332
+msgid "Youtube Banner"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:334
+msgid ""
+"By default, the channel banner is visible. You can hide the channel banner "
+"by unchecking this box."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:345
+msgid "Default View"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:354
+msgid "Choose whether grid or list view is set as the default."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:361
+msgid "Maximum items Per Row"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:374
+msgid "Limit the number of grid items per row."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:380
+msgid "Show Full Content"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:383
+msgid "Turning this on will display full content of post instead of excerpt."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:391
+msgid "Masonry Layout"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:394
+#, php-format
+msgid ""
+"This will allow your grid items to display in a %s layout as opposed to a "
+"fixed grid."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:402
+msgid "Disable Filter"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:405
+msgid "Enable this to remove the posts filter from displaying on this grid."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:412
+msgid "Disable Ribbons"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:415
+msgid "Enable this to remove ribbons from displaying on this grid."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:424 tinymce/vc/vc-grid.php:443
+msgid "Pagination Type"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:435 tinymce/vc/vc-grid.php:453
+msgid "Select which pagination type you would like to use on this grid."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:460
+msgid "Posts Per Page on Grid View"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:462 tinymce/vc/vc-grid.php:474
+msgid "8"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:465
+msgid ""
+"How many posts would you like to display per page on Grid view? If "
+"pagination is not enabled, will simply show this number of posts. Enter as a "
+"number example \"10\"."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:472
+msgid "Posts Per Page"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:477
+msgid ""
+"How many posts would you like to display per page? If pagination is not "
+"enabled, will simply show this number of posts. Enter as a number example "
+"\"10\"."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:484
+msgid "Posts Per Page on List View"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:486
+msgid "5"
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:489
+msgid "How many posts would you like to display per page on List view."
+msgstr ""
+
+#: tinymce/vc/vc-grid.php:496
+msgid "Grid ID"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpemaker.com/grid/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Drag and drop grid builder, that helps you quickly and easily build any grid "
+"layout you can imagine – no programming knowledge required."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mustapha FERSAOUI"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://mustaphafersaoui.fr"
+msgstr ""

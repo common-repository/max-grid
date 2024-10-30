@@ -1,0 +1,75 @@
+/* Media Element styles */
+@font-face {
+	font-family: 'icomoon';
+	src:url('../../../assets/lib/icomoon/fonts/icomoon.eot');
+	src:url('../../../assets/lib/icomoon/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../../../assets/lib/icomoon/fonts/icomoon.woff') format('woff'),
+		url('../../../assets/lib/icomoon/fonts/icomoon.ttf') format('truetype'),
+		url('../../../assets/lib/icomoon/fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body .mejs-container .mejs-controls,
+body .mejs-controls .mejs-time-rail .mejs-time-float {
+	background: unset!important;
+}
+body .mejs-horizontal-volume-total {
+	width: 100%!important;
+}
+
+body .mejs-container span {
+	color: unset;
+}
+body button[aria-controls],
+body button[aria-controls]:hover,
+body button[aria-controls]:focus {
+	background: unset;
+	border-radius: 0;
+	box-shadow: none;
+}
+body .mejs-time.mejs-duration-container,
+body .mejs-time.mejs-currenttime-container {
+	margin-top: -2px!important;
+	-webkit-box-sizing: unset !important;
+	   -moz-box-sizing: unset !important;
+			box-sizing: unset !important;
+}
+body .mejs-controls button:hover, body .mejs-controls button:focus { 
+	border: none; -webkit-box-shadow: none; box-shadow: none;	background: none
+}
+body .mejs-controls .mejs-button button {
+	font-family: 'icomoon' !important; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1
+}
+
+body .mejs-audio .mejs-controls .mejs-time-rail .mejs-time-current, 
+body .mejs-audio .mejs-controls .mejs-time-rail span, 
+body .mejs-audio .mejs-controls .mejs-time-rail a, 
+body .mejs-audio  .mejs-controls .mejs-time-rail .mejs-time-loaded{height:8px}
+
+body .mejs-poster{background-size:cover}
+body .mejs-container .mejs-controls .mejs-time{opacity:0.8;}
+body .mejs-controls button{transition:opacity 0.15s ease;padding: inherit!important}
+body .mejs-controls button:hover, .mejs-controls .mejs-fullscreen-button:hover button{opacity:0.8!important;background:transparent!important}
+
+body .mejs-controls .mejs-time-rail .mejs-time-total{background-color:rgba(255,255,255,0.25)!important}
+body .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current{background:transparent!important}
+
+body .mejs-button.mejs-playpause-button{min-width: 30px;}
+body .mejs-controls .mejs-button button{font-size:18px; color:#fff; width:auto; position:relative; display:inline-block; background-image:none!important}
+body .mejs-controls button:before{text-decoration:inherit;  display:inline-block;  speak:none}
+body .mejs-controls .mejs-play button:before{content:"\ea1c"}
+body .mejs-controls .mejs-mute button:before{content:"\ea2a";margin-left: 1px;}
+body .mejs-controls .mejs-unmute button:before{content:"\ea26"}
+body .mejs-button.mejs-volume-button{margin-left:5px!important}
+body .mejs-controls .mejs-pause {top: 2px; left: 2px; position: relative; border-radius: 0 !important;}
+body .mejs-controls .mejs-pause button{border-left:3px solid #fff; border-right:3px solid #fff; width:9px; height:12px; right:0!important;top: 2px;}
+body .mejs-container.mejs-audio{height:44px!important; width: auto !important; background-color:rgba(0,0,0,1)!important}
+body .mejs-container.mejs-audio .mejs-controls, 
+body .masonry-blog-item .mejs-container.mejs-video .mejs-controls{height:42px}
+body .mejs-audio .mejs-controls .mejs-time-rail .mejs-time-float{border:none; background-color:#fff!important; height:15px; box-shadow:0px 2px 12px rgba(0,0,0,0.25)}
+body .mejs-controls .mejs-time-rail .mejs-time-float-corner{border-color:#fff transparent transparent transparent!important;}
+
+body #header-outer .wpml-ls-menu-item .wpml-ls-flag{ margin-bottom:0!important}
+body .mejs-time-handle-content {
+	top: 0;
+}

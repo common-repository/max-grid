@@ -1,0 +1,506 @@
+/**
+ * Ajax Loader indicator Styles.
+ */
+
+body .lds-css.ng-scope {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+       -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+           transform: translate(-50%,-50%);
+}
+body .lds-css.ng-scope.relative {
+	position: relative;
+	left: unset;
+	top: unset;
+	-webkit-transform: unset;
+       -moz-transform: unset;
+        -ms-transform: unset;
+            transform: unset;
+}
+body .lds-rolling {
+	position: relative;
+}
+body .lds-rolling div,
+body .lds-rolling div:after {
+	position: absolute;
+	border-radius: 50%;
+	border-style: solid;
+}
+body .lds-rolling div {
+  -webkit-animation: lds-rolling .75s linear infinite;
+  	 -moz-animation: lds-rolling .75s linear infinite;
+  	  -ms-animation: lds-rolling .75s linear infinite;
+  	      animation: lds-rolling .75s linear infinite;
+}
+body .lds-rolling div:after {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* white spiner */
+body .white .lds-rolling div,
+body .white .lds-rolling div:after {
+	border: 2px solid #fff;
+	border-top-color: transparent;
+}
+@keyframes lds-rolling {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@-webkit-keyframes lds-rolling {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/*-------------------------------------------------------------------------*/
+/*	. Loading Bar
+/*-------------------------------------------------------------------------*/
+
+.maxgrid-loader {
+	height: 4px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-color: #ddd;
+}
+.maxgrid-loader:before{
+	display: block;
+	position: absolute;
+	content: "";
+	left: -200px;
+	bottom: -1px;
+	width: 200px;
+	height: 4px;
+	background-color: #2980b9;
+	animation: loading 2s linear infinite;
+}
+@keyframes loading {
+    from {left: -200px; width: 30%;}
+    50% {width: 30%;}
+    70% {width: 70%;}
+    80% { left: 50%;}
+    95% {left: 120%;}
+    to {left: 100%;}
+}
+
+/*-------------------------------------------------------------------------*/
+/*	. Dark loading indicator - Style 1
+/*-------------------------------------------------------------------------*/
+
+body .dark-loading {
+	position: relative;
+	top: -26px;
+	left: -26px;
+}
+body .outer-ball {
+	position: absolute;
+    background-color: rgba(0,0,0,0);
+    opacity: .9;
+    border: 5px solid #2187e7;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    animation: spin .5s infinite linear;
+    -moz-animation: spin .5s infinite linear;
+    -webkit-animation: spin .5s infinite linear;
+}
+body .inner-ball {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+    background-color: rgba(0,0,0,0);
+    opacity: .9;
+	border: 5px solid #2187e7;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    animation: spinoff .5s infinite linear;
+    -moz-animation: spinoff .5s infinite linear;
+    -webkit-animation: spinoff .5s infinite linear;
+}
+body .outer-ball, body .inner-ball {
+    border-top: 5px solid rgba(0,0,0,0);
+}	
+body .outer-ball {
+	box-shadow: 0 0 35px #2187e7;
+}
+body .inner-ball {
+	box-shadow: 0 0 15px #2187e7;
+}
+
+/*-------------------------------------------------------------------------*/
+/*  WordPress spinner
+/*-------------------------------------------------------------------------*/
+
+[class*="maxgrid"] .spinner {
+	display: none;
+	float: left;
+	visibility: visible;
+}
+
+[class*="maxgrid"] .spinner.float-left {
+	float: left;
+}
+[class*="maxgrid"] .spinner.float-right {
+	float: right;
+}
+/*-------------------------------------------------------------------------*/
+/*  Spiner Sizes Style
+/*-------------------------------------------------------------------------*/
+
+body .small .lds-rolling div,
+body .small .lds-rolling div:after {
+	width: 22px;
+	height: 22px;
+	border-width: 2px;
+	font-size: 4px;
+}
+body .add-to-cart-spinner {
+	position: relative;
+	background: red;
+	z-index: 10;
+}
+body .add-to-cart-spinner .small .lds-rolling div {
+	border-color: #fff!important;
+	border-top-color: transparent!important;
+	border-bottom-color: transparent!important;
+}
+body .add-to-cart-spinner .lds-css.ng-scope {
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+body .medium .lds-rolling div,
+body .medium .lds-rolling div:after {
+	width: 33px;
+	height: 33px;
+	border-width: 3px;
+	font-size: 5px;
+}
+body .large .lds-rolling div,
+body .large .lds-rolling div:after {
+	width: 45px;
+	height: 45px;
+	border-width: 3px;
+	font-size: 7px;
+}
+body .biggest .lds-rolling div,
+body .biggest .lds-rolling div:after {
+	width: 60px;
+	height: 60px;
+	border-width: 4px;
+	font-size: 9px;
+}
+
+/*-------------------------------------------------------------------------*/
+/*  Spiner Color Style
+/*-------------------------------------------------------------------------*/
+
+/* Default spiner */
+body .lds-rolling div,
+body .lds-rolling div:after {
+	border-color: #119af0;
+	border-top-color: transparent;
+}
+
+/* Grey spiner */
+body .grey .lds-rolling div,
+body .grey .lds-rolling div:after {
+	border-color: #b9b9b9;
+	border-top-color: #dedede;
+}
+
+/* Green spiner */
+body .green .lds-rolling div,
+body .green .lds-rolling div:after {
+	border-color: #73c02a;
+	border-top-color: transparent;
+}
+
+/* Green spiner */
+body .green .inner-ball, body .green .outer-ball {
+	border: 5px solid #73c02a;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes spinoff {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+@-moz-keyframes spin {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes spinoff {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(-360deg);
+    }
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spinoff {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
+/*-------------------------------------------------------------------------*/
+/*	. Dark loading indicator - Style 2
+/*-------------------------------------------------------------------------*/
+
+body .outer-circle {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+    background-color: rgba(0,0,0,0);
+    border: 5px solid rgba(0,183,229,0.9);
+    opacity: .9;
+    border-right: 5px solid rgba(0,0,0,0);
+    border-left: 5px solid rgba(0,0,0,0);
+    border-radius: 50px;
+    box-shadow: 0 0 35px #2187e7;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+	animation: spinPulse 1s infinite linear;
+    -moz-animation: spinPulse 1s infinite ease-in-out;
+    -webkit-animation: spinPulse 1s infinite linear;
+}
+body .inner-circle {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+    background-color: rgba(0,0,0,0);
+    border: 5px solid rgba(0,183,229,0.9);
+    opacity: .9;
+    border-left: 5px solid rgba(0,0,0,0);
+    border-right: 5px solid rgba(0,0,0,0);
+    border-radius: 50px;
+    box-shadow: 0 0 15px #2187e7;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+   	animation: spinoffPulse 1s infinite linear;
+    -moz-animation: spinoffPulse 1s infinite linear;
+    -webkit-animation: spinoffPulse 1s infinite linear;
+}
+@keyframes spinPulse {
+    0% {
+        transform: rotate(160deg);
+        opacity: 0;
+        box-shadow: 0 0 1px #2187e7;
+    }
+
+    50% {
+        transform: rotate(145deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(-320deg);
+        opacity: 0;
+    }
+}
+@keyframes spinoffPulse {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-moz-keyframes spinPulse {
+    0% {
+        -moz-transform: rotate(160deg);
+        opacity: 0;
+        box-shadow: 0 0 1px #2187e7;
+    }
+
+    50% {
+        -moz-transform: rotate(145deg);
+        opacity: 1;
+    }
+
+    100% {
+        -moz-transform: rotate(-320deg);
+        opacity: 0;
+    }
+}
+@-moz-keyframes spinoffPulse {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spinPulse {
+    0% {
+        -webkit-transform: rotate(160deg);
+        opacity: 0;
+        box-shadow: 0 0 1px #2187e7;
+    }
+
+    50% {
+        -webkit-transform: rotate(145deg);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: rotate(-320deg);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes spinoffPulse {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+/*-------------------------------------------------------------------------*/
+/*	Downloading Spinner
+/*-------------------------------------------------------------------------*/
+
+body .dld-spinner {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	padding: 5% 0;
+	text-align: center;
+	font-size: 10px;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+}
+body .pg_featured-layer .dld-spinner {
+	/*margin-top: -33px;*/
+}
+body .dld-spinner > div {
+	background-color: #fff;
+	height: 100%;
+	width: 3px;
+	margin: 0 1px 0 2px;
+	display: inline-block;  
+	-webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+	animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+body .dld-spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+body .dld-spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+body .dld-spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+body .dld-spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+body .dld-spinner .rect6 {
+  -webkit-animation-delay: -0.7s;
+  animation-delay: -0.7s;
+}
+body .dld-spinner .rect7 {
+  -webkit-animation-delay: -0.6s;
+  animation-delay: -0.6s;
+}
+body #maxgrid-button-style_container {
+  position: relative;
+  display: inline-block; 
+}
+#builder_save_changes:not([data-pname]) {
+	opacity: 0;
+	pointer-events: none;
+}
+body .ajax_dl-spiner {
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	left: 50%;
+	top: 0;
+	-webkit-transform:translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+body .ajax_dl-spiner.visible {
+	visibility: visible;
+	opacity: 1;
+}
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}

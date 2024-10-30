@@ -1,0 +1,225 @@
+/**
+ * MCE Editor - Custom Styles
+ *
+ */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../..//assets/lib/icomoon/fonts/icomoon.eot?xwa07v');
+  src:  url('../..//assets/lib/icomoon/fonts/icomoon.eot?xwa07v#iefix') format('embedded-opentype'),
+    url('../..//assets/lib/icomoon/fonts/icomoon.ttf?xwa07v') format('truetype'),
+    url('../..//assets/lib/icomoon/fonts/icomoon.woff?xwa07v') format('woff'),
+    url('../..//assets/lib/icomoon/fonts/icomoon.svg?xwa07v#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: WooCommerce;
+	src: url(../fonts/WooCommerce.eot);
+	src: url(../fonts/WooCommerce.eot?#iefix) format("embedded-opentype"), url(../fonts/WooCommerce.woff) format("woff"), url(../fonts/WooCommerce.ttf) format("truetype"), url(../fonts/WooCommerce.svg#WooCommerce) format("svg");
+	font-weight: 400;
+	font-style: normal
+}
+[data-mce-caret] {
+	display: none!important;
+}
+.disable-select {
+    -webkit-touch-callout: none!important; /* iOS Safari */
+    -webkit-user-select: none!important;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none!important;    /* Konqueror */
+    -moz-user-select: none!important;      /* Firefox */
+    -ms-user-select: none!important;       /* Internet Explorer/Edge */
+    user-select: none!important;           /* Non-prefixed version, currently supported by any browser but < IE9 */
+}
+.maxgrid-mce-btn-group [class^="icon-"], .maxgrid-mce-btn-group [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 14px;
+	/* inisialize */
+	background-color: transparent;
+	-webkit-border-radius: 0;
+	   -moz-border-radius: 0;
+		 -o-border-radius: 0;
+			border-radius: 0;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	line-height:29px;
+	text-align: center;
+	/* Enable Ligatures ================ */
+	letter-spacing: 0;
+	-webkit-font-feature-settings: "liga";
+	-moz-font-feature-settings: "liga=1";
+	-moz-font-feature-settings: "liga";
+	-ms-font-feature-settings: "liga" 1;
+	font-feature-settings: "liga";
+	-webkit-font-variant-ligatures: discretionary-ligatures;
+	font-variant-ligatures: discretionary-ligatures;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition:    all 0.25s ease-in-out;
+	-ms-transition:     all 0.25s ease-in-out;
+	-o-transition:      all 0.25s ease-in-out;
+	transition:         all 0.25s ease-in-out;
+}
+.maxgrid-mce-btn-group [class^="icon-"]:hover, .maxgrid-mce-btn-group [class*=" icon-"]:hover {
+	background-color: rgba(0, 0, 0, 0.12);
+	cursor: pointer;
+}
+.maxgrid-mce-btn-group .icon-pencil {
+	border-radius: 0;
+}
+.icon-pencil:before {
+  content: "\e905";
+}
+.maxgrid-mce-btn-group .icon-cross {
+	border-radius: 0 3px 3px 0;
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+p.maxgrid-mce-container {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	position: relative;
+}
+input.maxgrid_mce_input {
+	position: relative;
+	border: 1px solid #e5e5e5;
+	display: inline-block;
+	color: #f5f5f5;
+	background: #f5f5f5 url(../../assets/images/ajax-loader-h.gif) no-repeat 50% 50%;
+	padding: 6px 24px;
+	text-decoration: none;
+	width: 100%;
+	box-sizing: border-box;
+	height: 120px;
+	font-size: 0;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	cursor: default;
+}
+.mce-visual-caret {
+	height: 19px!important;
+}
+p.maxgrid-mce-container[contentEditable="false"][data-mce-selected],
+p.maxgrid-mce-container [contentEditable="false"][data-mce-selected] {
+	outline: 0!important;
+}
+.maxgrid-mce-block-name {
+	display: inline-block;
+	position: relative;
+	top: -1px;
+	padding: 0 15px;
+	font-family: arial;
+	font-size: 12px;
+}
+.maxgrid-mce-ptype {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-family: arial;
+	font-size: 11px;
+	font-style: italic;
+	color: #999;
+	width: calc(100% - 20px);
+	height: calc(100% - 20px);
+	padding: 10px 10px 10px 67px;
+	background-color: #fff !important;
+	line-height: 14px;
+	border: 1px solid rgba(0,0,0,.1);
+	box-sizing: border-box;
+	cursor: default;
+	z-index: 1;
+}
+.maxgrid-mce-ptype > div {
+	margin-bottom: 1px;
+}
+.maxgrid-mce-ptype > div:first-of-type {
+	color: #444;
+	font-style: normal;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.maxgrid-mce-ptype:after {
+	font-family: 'icomoon';
+	position: absolute;
+	font-style: normal;
+	left: 10px;
+	top: 17px;
+	font-size: 28px;
+}
+.maxgrid-mce-ptype.post:after {
+	content: "\eab4";
+	color: #21759b;
+}
+.maxgrid-mce-ptype.download:after {
+	content: "\e95e";
+	color: #65ce25;
+}
+.maxgrid-mce-ptype.product:after {
+	position: absolute;
+	content: '';	
+	background-size: 42px;
+	left: 10px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 10px;
+}
+.maxgrid-mce-ptype.youtube_stream:after {
+	content: "\ea9d";
+	color: #ff0000;
+}
+
+/* Image block Preview */
+.maxgrid-mce-block-preview {
+	position: absolute;
+	width: 150px;
+	height: 84px;
+	right: 18px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	background-size: 100% !important;
+	z-index: 10;
+}
+.maxgrid-mce-btn-group {
+	position: absolute;
+	display: inline-block;
+	content: 'Edit';
+	height: 30px;
+	color: #fff;
+	background-color: #929292;
+	border: 0 solid transparent;
+	border-radius: 3px;
+	opacity: .5;
+	white-space: nowrap;
+	cursor: default;
+	line-height: 0;
+	width: auto;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%,50%);
+	transform: translate(-50%,-50%);
+	z-index: 1002;
+}
+.maxgrid-mce-container:hover .maxgrid-mce-btn-group {
+	background-color: #2da8ff;
+	opacity: 1;
+}
+.maxgrid-mce-container:hover .maxgrid-mce-block-preview, .maxgrid-mce-container:hover .maxgrid-mce-ptype {
+	opacity: 1;
+}
